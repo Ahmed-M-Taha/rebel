@@ -1,0 +1,38 @@
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.centered, .centered1 {
+    top: 9%;
+    color: white;
+    font-size: 3em;
+}
+
+@media (max-width: 567px) {
+    .centered {
+        transform: translate(0%, -1150%);
+    }
+
+    .centered1 {
+        transform: translate(0%, -770%);
+    }
+
+    .banner {
+        width: 100%;
+    }
+}
+
+@media (min-width: 568px) {
+    .centered {
+        transform: translate(0%, -1600%);
+    }
+
+    .centered1 {
+        transform: translate(0%, -1050%);
+    }
+
+    .banner {
+        width: 100%;
+    }
+}

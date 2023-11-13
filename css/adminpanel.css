@@ -1,0 +1,23 @@
+.body{
+    background-color: #313131;
+    color: white;
+    text-align: center;
+}
+.jumbotron{
+    font-size: xx-large;
+    text-align: center;
+    background-color: darkgray !important;
+}
+input{
+    border: 0.2px;
+    border-radius: .2em;
+    height: 2.8em;
+    width: 22em;    
+}
+button{
+
+    text-align: center !important;
+}
+div{
+    text-align: center;
+}
