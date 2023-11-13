@@ -3,19 +3,23 @@ a:hover {
     color: inherit;
 }
 
-.centered, .centered1 {
+.centered {
     top: 9%;
     color: white;
-    font-size: 3em;
+    font-size: 2.4em;
+}
+
+.centered1{
+    font-size: 2.6em;
 }
 
 @media (max-width: 567px) {
     .centered {
-        transform: translate(0%, -1150%);
+        transform: translate(0%, -1350%);
     }
 
     .centered1 {
-        transform: translate(0%, -770%);
+        transform: translate(0%, -800%);
     }
 
     .banner {
@@ -25,11 +29,11 @@ a:hover {
 
 @media (min-width: 568px) {
     .centered {
-        transform: translate(0%, -1600%);
+        transform: translate(0%, -2000%);
     }
 
     .centered1 {
-        transform: translate(0%, -1050%);
+        transform: translate(0%, -1200%);
     }
 
     .banner {
